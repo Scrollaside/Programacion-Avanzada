@@ -1,0 +1,744 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (España, alfabetización internacional) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 195, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Incio de sesión"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,15,84,50,14
+    PUSHBUTTON      "Nuevo Usuario",IDC_BUTTON2,15,110,66,14
+    PUSHBUTTON      "Salir",IDC_BUTTON3,126,110,50,14
+    EDITTEXT        IDC_EDIT1,14,26,126,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,14,58,126,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "Ingrese Usuario",IDC_STATIC1,15,14,52,8
+    LTEXT           "Ingrese Contraseña",IDC_STATIC,14,47,65,8
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 367, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Menú principal"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "<Menú Principal>",IDC_STATIC,23,18,57,8
+    PUSHBUTTON      "Opciones de Usuarios",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Opciones de Clientes",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Opciones de Promociones",IDC_BUTTON3,29,76,90,14
+    PUSHBUTTON      "Opciones de Consumos",IDC_BUTTON4,29,91,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    PUSHBUTTON      "Salir",IDC_BUTTON6,81,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC,21,32,109,81
+    GROUPBOX        "Estático",IDC_STATIC1,246,25,106,128
+    LTEXT           "Estático",IDC_STATIC2,252,40,78,8
+    LTEXT           "Estático",IDC_STATIC3,252,55,85,8
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,264,88,57,53,WS_EX_ACCEPTFILES
+    LTEXT           "Estático",IDC_STATIC4,185,26,26,8
+    LTEXT           "Consumos totales:",IDC_STATIC,154,72,45,19
+    LTEXT           "Estático",IDC_STATIC7_,187,80,26,8
+    GROUPBOX        "Datos",IDC_STATIC,144,18,83,102
+    LTEXT           "Promociones activas:",IDC_STATIC,154,37,42,20
+    LTEXT           "Clientes:",IDC_STATIC,154,26,29,8
+    LTEXT           "Monto total: $",IDC_STATIC,154,89,27,21
+    LTEXT           "Estático",IDC_STATIC8,178,97,26,8
+    LTEXT           "Estático",IDC_STATIC5,185,46,26,8
+    LTEXT           "Promociones inactivas:",IDC_STATIC,154,55,43,17
+    LTEXT           "Estático",IDC_STATIC6,186,63,26,8
+    PUSHBUTTON      "Actualizar",IDC_BUTTON7,159,124,50,14
+    LTEXT           "Estático",IDC_STATIC9,252,65,88,18
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 201, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Menú de usuarios"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "<Opciones de usuarios>",IDC_STATIC,23,18,80,8
+    PUSHBUTTON      "Actualizar Usuario actual",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Alta de nuevo usuario",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Listado de Usuarios",IDC_BUTTON3,29,76,90,14
+    PUSHBUTTON      "Reestablecer Contrasena",IDC_BUTTON4,29,91,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC4,21,32,109,81
+    CTEXT           "Estático",IDC_STATIC1,139,98,55,18
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,137,116,57,53,WS_EX_ACCEPTFILES
+END
+
+IDD_DIALOG4 DIALOGEX 0, 0, 187, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC1,23,18,105,8
+    PUSHBUTTON      "Boton 1",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Boton 2",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC,21,32,109,53
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,123,116,57,53,WS_EX_ACCEPTFILES
+    CTEXT           "Estático",IDC_STATIC2,124,99,55,18
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 197, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Menú de promociones"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "<Opciones de promociones>",IDC_STATIC,23,18,93,8
+    PUSHBUTTON      "Alta de Promocion",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Baja de Promocion",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Listado de Promociones",IDC_BUTTON3,29,76,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC4,21,32,109,67
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,133,116,57,53,WS_EX_ACCEPTFILES
+    CTEXT           "Estático",IDC_STATIC1,136,98,55,18
+END
+
+IDD_REGISTRO DIALOGEX 0, 0, 205, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Registro"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,17,25,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,17,56,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,17,84,89,14,ES_AUTOHSCROLL
+    LTEXT           "Estático",IDC_STATIC1,20,15,113,8,WS_TABSTOP
+    LTEXT           "Estático",IDC_STATIC3,19,73,122,8
+    LTEXT           "Estático",IDC_STATIC2,19,44,113,8,WS_TABSTOP
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,127,119,50,14
+END
+
+IDD_NEWUSUARIO DIALOGEX 0, 0, 205, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,17,25,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,17,56,90,14,ES_AUTOHSCROLL
+    LTEXT           "Estático",IDC_STATIC1,20,15,113,8,WS_TABSTOP
+    LTEXT           "Estático",IDC_STATIC2,18,44,130,8
+    LTEXT           "Estático",IDC_STATIC3,19,73,122,8
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,127,119,50,14
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,21,89,92,10
+END
+
+IDD_LISTA DIALOGEX 0, 0, 217, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Lista"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Estático",IDC_STATIC1,23,19,174,8
+    LTEXT           "Estático",IDC_STATIC2,23,32,165,8
+    LTEXT           "Estático",IDC_STATIC3,59,42,64,8
+    PUSHBUTTON      "Cancelar",IDC_BUTTON2,149,133,50,14
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,27,133,50,14
+    LISTBOX         IDC_LIST1,27,67,157,40,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Comercio:",IDC_STATIC,23,41,33,8
+END
+
+IDD_NEWCLIEN DIALOGEX 0, 0, 279, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Fecha de registro:",IDC_STATIC5,19,82,60,8
+    LTEXT           "Ingrese alias",IDC_STATIC2,20,47,42,8
+    LTEXT           "Ingrese nuevo cliente",IDC_STATIC1,20,18,70,8
+    LTEXT           "Ingrese telefono",IDC_STATIC3,150,18,54,8
+    LTEXT           "Ingrese Correo electronico",IDC_STATIC4,150,47,86,8
+    EDITTEXT        IDC_EDIT2,18,59,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,148,59,106,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,148,29,106,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT1,18,29,106,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,159,118,50,14
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,18,93,64,15
+    LTEXT           "Estático",IDC_STATIC6,83,82,42,8
+END
+
+IDD_RESTABLECER DIALOGEX 0, 0, 229, 138
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Contraseña actual:",IDC_STATIC,25,23,62,8
+    LTEXT           "Estático",IDC_STATIC1,90,23,132,8
+    LTEXT           "Ingrese nueva contraseña ",IDC_STATIC,23,49,88,8
+    EDITTEXT        IDC_EDIT1,21,61,156,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,31,91,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,123,91,50,14
+END
+
+IDD_SELEC DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC1,23,18,105,8
+    PUSHBUTTON      "Boton 1",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Boton 2",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC,21,32,109,53
+    LTEXT           "Estático",IDC_STATIC2,189,36,77,8
+    LTEXT           "Estático",IDC_STATIC4,189,58,76,8
+    LTEXT           "Estático",IDC_STATIC3,189,47,78,8
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,201,88,57,53,WS_EX_ACCEPTFILES
+    LTEXT           "Estático",IDC_STATIC5,189,68,81,8
+    GROUPBOX        "Estático",IDC_STATIC0,183,25,106,128
+END
+
+IDD_NEWPROM DIALOGEX 0, 0, 263, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Promocion"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,17,25,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,17,56,90,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Estático",IDC_STATIC1,20,15,113,8,WS_TABSTOP
+    LTEXT           "Estático",IDC_STATIC2,18,44,130,8
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,159,118,50,14
+    EDITTEXT        IDC_EDIT3,126,56,90,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Estático",IDC_STATIC3,128,45,113,8,WS_TABSTOP
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,126,27,130,10
+    LTEXT           "Fecha de registro:",IDC_STATIC4,19,82,60,8
+    LTEXT           "Estático",IDC_STATIC5,83,82,43,8
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,18,96,100,15
+END
+
+IDD_SELEC2 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC1,23,18,105,8
+    PUSHBUTTON      "Boton 1",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Boton 2",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC,21,32,109,53
+    LTEXT           "Estático",IDC_STATIC2,189,36,77,8
+    LTEXT           "Estático",IDC_STATIC4,189,58,76,8
+    LTEXT           "Estático",IDC_STATIC3,189,47,78,8
+    LTEXT           "Estático",IDC_STATIC5,189,68,81,8
+    GROUPBOX        "Estático",IDC_STATIC0,183,25,106,75
+    LTEXT           "",IDC_STATIC6,189,79,90,8
+    LISTBOX         IDC_LIST1,183,118,106,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Seleccionar",IDC_BUTTON3,131,118,50,14
+    LTEXT           "Ordenes",IDC_STATIC,184,109,28,8
+END
+
+IDD_ACTUS DIALOGEX 0, 0, 249, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,17,25,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,17,56,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,17,84,89,14,ES_AUTOHSCROLL
+    LTEXT           "Estático",IDC_STATIC1,20,15,113,8,WS_TABSTOP
+    LTEXT           "Estático",IDC_STATIC2,18,44,130,8
+    LTEXT           "Estático",IDC_STATIC3,19,73,100,8
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,159,119,50,14
+    LTEXT           "Estático",IDC_STATIC4,128,45,113,8,WS_TABSTOP
+    CONTROL         "Check1",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,126,27,94,10
+    PUSHBUTTON      "Abrir",IDC_BUTTON3,185,95,50,14
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,124,56,57,53,WS_EX_ACCEPTFILES
+END
+
+IDD_NEWCONS DIALOGEX 0, 0, 175, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Consumo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,94,118,50,14
+    LTEXT           "Seleccione un cliente",IDC_STATIC,18,16,67,8
+    LTEXT           "Establesca un monto",IDC_STATIC,20,70,67,8
+    LISTBOX         IDC_LIST1,18,24,105,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,18,82,112,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Precio por pieza: $",IDC_STATIC,19,98,60,8
+    LTEXT           "Estático",IDC_STATIC1,79,98,68,8
+    CONTROL         "",IDC_DATETIMEPICKER1,"SysDateTimePick32",DTS_RIGHTALIGN | NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,21,144,100,15
+END
+
+IDD_TOTAL DIALOGEX 0, 0, 129, 131
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Resultado"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Fecha:",IDC_STATIC,12,74,23,8
+    LTEXT           "Estático",IDC_STATIC1,36,74,78,8
+    LTEXT           "Subtotal: $",IDC_STATIC,12,37,36,8
+    LTEXT           "Estático",IDC_STATIC2,48,37,63,8
+    LTEXT           "Descuento:",IDC_STATIC,12,49,38,8
+    LTEXT           "Estático",IDC_STATIC3,50,49,60,8
+    LTEXT           "Total: $",IDC_STATIC,12,62,26,8
+    LTEXT           "Estático",IDC_STATIC4,37,62,90,8
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,40,106,50,14
+    LTEXT           "Monto: ",IDC_STATIC,12,25,26,8
+    LTEXT           "Estático",IDC_STATIC5,36,25,84,8
+    GROUPBOX        "Estático",IDC_STATIC0,7,12,115,78
+    LTEXT           "*IVA incluido*",IDC_STATIC,75,93,45,8
+END
+
+IDD_DATAUSU DIALOGEX 0, 0, 205, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,17,25,90,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,17,56,90,14,ES_AUTOHSCROLL
+    LTEXT           "Estático",IDC_STATIC1,20,15,113,8,WS_TABSTOP
+    LTEXT           "Estático",IDC_STATIC3,19,73,94,8
+    LTEXT           "Estático",IDC_STATIC2,19,44,100,8,WS_TABSTOP
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,22,118,50,14
+    PUSHBUTTON      "Atrás",IDC_BUTTON2,127,119,50,14
+    PUSHBUTTON      "Abrir",IDC_BUTTON3,17,86,50,14
+    CONTROL         "",IDC_PICTUREC,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,123,33,58,55,WS_EX_ACCEPTFILES
+END
+
+IDD_CONFIRMAR DIALOGEX 0, 0, 147, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Aviso"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "11111 1111 1 111 1111 1111 1111 1",IDC_STATIC1,21,13,107,32
+    PUSHBUTTON      "Aceptar",IDC_BUTTON1,18,55,50,14
+    PUSHBUTTON      "Cancelar",IDC_BUTTON2,79,55,50,14
+END
+
+IDD_SELEC3 DIALOGEX 0, 0, 309, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC1,23,18,105,8
+    PUSHBUTTON      "Boton 1",IDC_BUTTON1,29,46,90,14
+    PUSHBUTTON      "Boton 2",IDC_BUTTON2,29,61,90,14
+    PUSHBUTTON      "Regresar",IDC_BUTTON5,22,133,50,14
+    GROUPBOX        "Seleccione una opción",IDC_STATIC,21,32,109,53
+    LTEXT           "Estático",IDC_STATIC2,212,36,72,8
+    LTEXT           "Estático",IDC_STATIC4,213,58,71,8
+    LTEXT           "Estático",IDC_STATIC3,226,47,59,8
+    LTEXT           "Estático",IDC_STATIC5,213,68,71,8
+    GROUPBOX        "Estático",IDC_STATIC0,183,25,106,75
+    LTEXT           "Monto:",IDC_STATIC,187,36,24,8
+    LTEXT           "Descuento:",IDC_STATIC,187,47,38,8
+    LTEXT           "Activa:",IDC_STATIC,188,58,24,8
+    LTEXT           "Fecha:",IDC_STATIC,188,68,23,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 360
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 190
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_REGISTRO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_NEWUSUARIO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_LISTA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_NEWCLIEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 272
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_RESTABLECER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_SELEC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_NEWPROM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_SELEC2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_ACTUS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_NEWCONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_TOTAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 122
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 124
+    END
+
+    IDD_DATAUSU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 198
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_CONFIRMAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 140
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_SELEC3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100,
+    0, 0, 0, 0
+END
+
+IDD_DIALOG4 AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100
+END
+
+IDD_DIALOG5 AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 100
+END
+
+IDD_REGISTRO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_NEWUSUARIO AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_LISTA AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_NEWCLIEN AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_RESTABLECER AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SELEC AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_NEWPROM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_SELEC2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ACTUS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_NEWCONS AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TOTAL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DATAUSU AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_CONFIRMAR AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 0, 100,
+    0, 0, 0, 0,
+    0, 0, 0, 0
+END
+
+IDD_SELEC3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Archivo"
+    BEGIN
+        MENUITEM "Abrir",                       ID_ARCHIVO_ABRIR
+        MENUITEM "Guardar",                     ID_ARCHIVO_GUARDAR
+    END
+    POPUP "Salir"
+    BEGIN
+        MENUITEM "Guardar y salir",             ID_SALIR_GUARDARYSALIR
+        MENUITEM "Salir sin guardar",           ID_SALIR_SALIRSINGUARDAR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Perfil.bmp"
+
+#endif    // Español (España, alfabetización internacional) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
