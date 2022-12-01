@@ -83,7 +83,7 @@ consumos* buscar4 = new consumos();
 consumos* contar4 = new consumos();
 
 char menu0, menu1, menu2, menu3, sinoadmin, sinoactivo;
-bool UsuValid, adminuevusu, comernew, Cvalid, adad = true;
+bool UsuValid, adminuevusu, comernew, Cvalid/*, adad = true*/;
 int CV1, CV2, CV3, CV4, CV5;
 int i = 0;
 //j = usuario actual
@@ -1043,12 +1043,12 @@ BOOL CALLBACK WindowProc1(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
                     if (actual->NewUsuario == true) {
                         DialogBox(NULL, MAKEINTRESOURCE(IDD_DATAUSU), hwnd, (DLGPROC)ActualizarUA);
                         if (regresar == false) {
-                            if (adad == true) {
-                                MessageBox(hwnd, L"Se le han otorgado permisos de administrador al ser el primer usuario.", L"Aviso", MB_ICONINFORMATION);
-                                actual->Admin = true;
-                                adad = false;
-                               
-                            }
+                            //if (adad == true) {
+                            //    MessageBox(hwnd, L"Se le han otorgado permisos de administrador al ser el primer usuario de su comercio.", L"Aviso", MB_ICONINFORMATION);
+                            //    //actual->Admin = true;
+                            //    adad = false;
+                            //   
+                            //}
                             Dialog2 = CreateDialog(NULL, MAKEINTRESOURCE(IDD_DIALOG2), hwnd, (DLGPROC)WindowProc2);
                             ShowWindow(Dialog2, SW_SHOW);
                         }
@@ -2086,7 +2086,7 @@ BOOL CALLBACK RegistroUsuario(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam
                         wcscpy_s(ali, L"{PENDIENTE}");
                         wcscpy_s(img, L"Perfil.bmp");
                         newus = true;
-                        adm = false;
+                       /* adm = false;*/
 
                         actual = lista1;
                         comernew = false;
@@ -2101,10 +2101,15 @@ BOOL CALLBACK RegistroUsuario(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam
                         }
                         if (comernew == false) {
                             numcom = actual->numcomer;
+                            adm = false;
+                            
                         }
                         else {
                             l++;
                             numcom = l;
+                            adm = true;
+                           /* adad = true;*/
+                            MessageBox(hwnd, L"Se le han otorgado permisos de administrador al ser el primer usuario de su comercio.", L"Aviso", MB_ICONINFORMATION);
                         }
                         newus = true;
                         agregar_usuario(lista1, usu, nomcom, cont, comer, ali, numcom, adm, newus, img);
